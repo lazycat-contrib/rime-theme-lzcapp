@@ -1,0 +1,20 @@
+package: community.lazycat.app.rime-theme
+version: 0.0.1
+name: Rime Theme
+description: "Visual theme editor for the Rime input method: preset color schemes, one-click import and export."
+min_os_version: 1.5.0
+author: tom2almighty
+license: AGPL-3.0
+homepage: https://github.com/tom2almighty/rime-theme
+
+locales:
+  zh:
+    name: "Rime 主题编辑器"
+    description: "可视化制作 Rime 输入法主题：预设多种配色，支持一键导入导出。"
+  en:
+    name: "Rime Theme"
+    description: "Visual theme editor for the Rime input method: preset color schemes, one-click import and export."
+
+permissions:
+  required:
+    - net.internet
