@@ -6,12 +6,11 @@ application:
   upstreams:
     - location: /
       backend: http://rime-theme:80/
-
 services:
   rime-theme:
     # ghcr.io/tom2almighty/rime-theme:0.0.1
-    image: registry.lazycat.cloud/czyt/tom2almighty/rime-theme:PLACEHOLDER
-
+    # upstream: ghcr.io/tom2almighty/rime-theme:0.0.1
+    image: ghcr.1ms.run/tom2almighty/rime-theme:0.0.1
 usage: |
   打开即用：挑选预设配色或自定义调整，导出得到的主题文件放到 Rime 用户目录即可生效。
   纯静态网页应用，无账号无数据存储。
